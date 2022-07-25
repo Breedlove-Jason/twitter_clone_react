@@ -8,7 +8,8 @@ import PublishIcon from "@mui/icons-material/Publish";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 
 function Post({ displayName, username, verified, text, image, avatar }) {
-  avatar = "https://i.dlpng.com/static/png/6815962_preview.png";
+  avatar =
+    "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png";
   image =
     "https://fcit.usf.edu/matrix/wp-content/uploads/2017/01/DanceBot-3-Med.gif";
 

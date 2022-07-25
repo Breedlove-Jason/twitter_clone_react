@@ -11,6 +11,9 @@ function Feed(props) {
         <TweetBox />
       </div>
       <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 }

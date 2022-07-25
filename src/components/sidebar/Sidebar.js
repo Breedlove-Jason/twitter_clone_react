@@ -11,7 +11,7 @@ import BookmarkIcon from "@mui/icons-material/Bookmark";
 import ListIcon from "@mui/icons-material/List";
 import PersonIcon from "@mui/icons-material/Person";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import { Avatar, Button } from "@mui/material";
+import { Button } from "@mui/material";
 
 function Sidebar(props) {
   return (
