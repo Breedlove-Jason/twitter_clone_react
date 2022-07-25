@@ -24,6 +24,7 @@ function Post({ displayName, username, verified, text, image, avatar }) {
               Jason Breedlove{" "}
               <span className={"post__headerSpecial"}>
                 <VerifiedIcon className={"post__badge"} />
+                {"@jbreedloveDev"}
               </span>
             </h3>
           </div>
@@ -31,7 +32,7 @@ function Post({ displayName, username, verified, text, image, avatar }) {
             <p>I challenge you to build a Twitter clone with react</p>
           </div>
         </div>
-        <img src={image} alt={"robot-gif"} />
+        <img className={"post__image"} src={image} alt={"robot-gif"} />
         <div className={"post__footer"}>
           <ChatBubbleOutlineIcon fontSize={"small"} />
           <RepeatIcon fontSize={"small"} />

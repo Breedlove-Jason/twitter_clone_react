@@ -7,6 +7,7 @@ function Feed(props) {
   return (
     <div className={"feed"}>
       <div className="feed__header">
+        <h2>Home</h2>
         <TweetBox />
       </div>
       <Post />

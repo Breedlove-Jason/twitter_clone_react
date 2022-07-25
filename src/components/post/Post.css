@@ -1,26 +1,26 @@
 .post__badge{
-    width: 17px;
-    height: 17px;
+    font-size: 14px !important;
+    color: var(--twitter-color) !important;
 }
 
 .post{
     display: flex;
     align-items: flex-start;
     border-bottom: 1px solid var(--twitter-backgorund);
+    /*border-top: 1px solid var(--twitter-backgorund);*/
     padding-bottom: 10px;
 
 }
 
 .post__body > img {
     border-radius: 20px;
-    width: 100%;
 
 }
 
 .post__footer{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .post__headerSpecial{
@@ -29,7 +29,7 @@
     color: gray;
 }
 
-.post__headerText{
+.post__headerText > h3{
     font-size: 15px;
     margin-bottom: 5px;
 }
@@ -47,3 +47,8 @@
 .post__avatar{
     padding: 20px;
 }
+
+/*.post__image{*/
+/*    width: 150px;*/
+/*    height: 350px;*/
+/*}*/
