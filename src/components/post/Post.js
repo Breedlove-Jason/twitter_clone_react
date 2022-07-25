@@ -22,21 +22,21 @@ function Post({ displayName, username, verified, text, image, avatar }) {
           <div className="post__headerText">
             <h3>
               Jason Breedlove{" "}
-              <span>
+              <span className={"post__headerSpecial"}>
                 <VerifiedIcon className={"post__badge"} />
               </span>
             </h3>
-            <div className="post__headerDescription">
-              <p>I challenge you to build a Twitter clone with react</p>
-            </div>
           </div>
-          <img src={image} alt="robot gif" />
-          <div className="post__footer">
-            <ChatBubbleOutlineIcon fontSize={"small"} />
-            <RepeatIcon fontSize={"small"} />
-            <FavoriteBorderIcon fontSize={"small"} />
-            <PublishIcon fontSize={"small"} />
+          <div className={"post__headerDescription"}>
+            <p>I challenge you to build a Twitter clone with react</p>
           </div>
+        </div>
+        <img src={image} alt={"robot-gif"} />
+        <div className={"post__footer"}>
+          <ChatBubbleOutlineIcon fontSize={"small"} />
+          <RepeatIcon fontSize={"small"} />
+          <FavoriteBorderIcon fontSize={"small"} />
+          <PublishIcon fontSize={"small"} />
         </div>
       </div>
     </div>
