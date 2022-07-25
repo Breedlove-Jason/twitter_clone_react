@@ -22,6 +22,10 @@ function Widgets(props) {
           screenName={"jbreedloveDev"}
           options={{ height: 400 }}
         />
+        <TwitterShareButton
+          url={"https://jasonbreedlove.dev"}
+          options={{ text: "#checkout my portfolio", via: "jbreedloveDev" }}
+        />
       </div>
     </div>
   );
