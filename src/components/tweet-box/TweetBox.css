@@ -35,3 +35,9 @@
     margin-left: auto !important;
 
 }
+
+.tweetBox__imageInput{
+    border: none;
+    padding:10px;
+    
+}

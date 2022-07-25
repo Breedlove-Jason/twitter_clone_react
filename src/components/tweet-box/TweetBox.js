@@ -14,8 +14,12 @@ function TweetBox(props) {
             placeholder={"What's happening?"}
             type={"text"}
           />
-          <input placeholder={"Enter image url"} />
         </div>
+        <input
+          placeholder={"Enter image url"}
+          className={"tweetBox__imageInput"}
+          type={"text"}
+        />
         <Button className={"tweetBox__tweetButton"}>Tweet</Button>
       </form>
     </div>
